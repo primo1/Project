@@ -19,6 +19,20 @@ This script performs the following:
 
 Detailed steps to accomplish each of the above objectives can be found in the comments section of the run_analysis.R code
 
+
+# Results
+
+To view the results file, download Results.txt file to a local directory, point R to directory containing the Results.txt file, and execute the following R commands:
+
+* library(data.table)
+* data <- read.table(".\\Results.txt", header = TRUE)
+* view(data)
+
+Here is a snapshot of the Results:
+
+![alt text] (https://github.com/primo1/Project/blob/master/Results.jpg "Results.txt")
+
+
 # References
 
 A full description of collected data is available at the site where the data was obtained: 
